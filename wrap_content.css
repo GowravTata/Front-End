@@ -1,0 +1,69 @@
+/* New Declaration
+------------------------------------------  */
+body {
+	color:black;
+    /* Still there is margin present at the left and right of each content to remove the margin 
+    the following has to be done */
+    margin:0;
+    padding:0;
+
+}
+
+
+img {
+	/*This is the declaration block  */
+	width: 300px;
+
+}
+
+.content-wrapper {
+    width: 50%;
+    margin: 0 auto;
+}
+
+/* Profile
+------------------------------------------  */
+header {
+	background-color:salmon;
+}
+
+
+/* Work Experience
+------------------------------------------  */
+.work {
+	background-color:fuchsia;
+}
+
+/* Projects
+------------------------------------------  */
+.projects {
+	background-color:chocolate;
+}
+
+/* Education
+------------------------------------------  */
+.education {
+	background-color: darkseagreen;
+}
+
+/* Contact Info
+------------------------------------------  */
+footer {
+	background-color:gold;
+}
+
+/* */
+
+
+/* h1  {
+    margin: 0;
+}
+
+
+h2 {
+    margin: 0;
+}
+
+p {
+    margin:0;
+} */

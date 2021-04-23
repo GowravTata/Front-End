@@ -1,0 +1,38 @@
+p {
+    background:lightgreen;
+    border: 1px solid black;
+    padding: 20px;
+    /* margin: 20px; */
+}
+
+span {
+    background:yellow;
+    background: cyan;
+    border: 1px solid black;
+    /* Adding padding to inline element */
+    padding: 20px;
+    /* Adding margin to create space around the element. Applies only to left and right */
+    margin: 0px; /* 0 margin has some space due to line break  */
+    /* Adding display takes the cahracterstics of block and inline elements */
+    display:inline-block;
+    font-size: 16px;
+
+}
+.first {
+/* Removing the margin from the bottom of top paragraph */
+    margin-bottom: 0;
+}
+/* If margins of adjacent elements are removed, effect isn't reflected as both share the common margin */
+.second {
+    /* Removing the margin from the top of bottom paragraph */
+    margin-top: 0;
+}
+/* To nudge the Fett we use this.  */
+.margin {
+    margin-left: -4px;
+}
+/* When font size is used it leaves no space between,in the div tag 
+But the size has to be described seperately in span section  */
+.wrap {
+    /* font-size: 0; */
+}

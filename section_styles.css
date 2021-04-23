@@ -1,0 +1,43 @@
+
+body {
+    margin: 0;
+    padding:0;
+}
+
+h2 {
+    margin: 0;
+}
+.intro {
+    background:crimson;
+}
+
+
+.education {
+    background:greenyellow;
+
+}
+
+.contact {
+    background:khaki;
+}
+
+.dash {
+    width: 500px;
+    margin: 0 auto;
+    /* This provies padding to each of the section */
+    padding: 20px 0;
+}
+/* Using this, it will squishes the contents, better not to use this. Better to use padding */
+/* h1  {
+    margin: 0;
+}
+
+
+h2 {
+    margin: 0;
+}
+
+p {
+    margin:0;
+} */
+

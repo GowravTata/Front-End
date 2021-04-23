@@ -1,0 +1,16 @@
+div {
+    background:red;
+    height:50px;
+    width:300px;    
+      /* Using ineline-block renders block element like inline element */
+    display: inline-block;
+}
+
+span {
+    background:aqua;
+    height:50px;
+    width:300px;
+    /* Using block renders inline element like block element */
+    display:block;
+    /* Adding display to inline elements will make it display like block element */
+}

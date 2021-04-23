@@ -1,0 +1,28 @@
+*{
+    color:seagreen;
+
+}
+h1{
+    color:lightseagreen;
+}
+h2 {
+    color:darkblue;
+}
+/* To apply colour to the certain paragraph 
+The syntax will be like as follows
+<p class='fancy'>Fancy paragraph.</p> 
+<p Regular paragraph.</p>
+*/
+/*Class and Id give us a way to target certain elements*/
+.loss {
+    color:darkmagenta;
+}
+
+.tribes {
+    background:black;
+    font-size:50px;
+}
+#angles {
+    font-size: 100px;
+    font-style: italic;
+}

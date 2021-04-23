@@ -1,0 +1,25 @@
+/* Body 
+------------------------------------------  */
+body {
+	color:black;
+
+}
+
+/* Profile
+------------------------------------------  */
+header {
+	background-color:salmon;
+}
+
+/* Education
+------------------------------------------  */
+.education {
+	background-color: darkseagreen;
+}
+
+/* Contact Info
+------------------------------------------  */
+footer {
+	background-color:gold;
+}
+

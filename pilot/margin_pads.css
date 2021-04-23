@@ -1,0 +1,8 @@
+section {
+    background: lightblue;
+    width: 40%; 
+    /* 0 is setting left and right places to auto
+    remaining space will be split evenly and 
+    align it centre */
+    margin:0 auto;
+}

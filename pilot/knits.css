@@ -1,0 +1,19 @@
+/*  */
+ a {
+    color:tomato;
+}  
+ section a {
+    color:cyan;
+}
+
+.top a {
+    color:fuchsia;
+}  
+
+section p a {
+    color:lawngreen;
+} 
+/* Using class new the outside of the section can be changed */
+.new {
+    color:gold;
+}

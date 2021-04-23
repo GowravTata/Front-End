@@ -1,0 +1,19 @@
+body {
+    font-size:150px;
+}
+
+
+
+a:link {
+      background-color: crimson;
+} 
+a:visited{
+    color:blue;
+} 
+a:focus {
+    outline: 1px solid red;
+}
+
+a:hover{
+    background: gray;
+}

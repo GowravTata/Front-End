@@ -1,0 +1,46 @@
+/* New Declaration
+------------------------------------------  */
+body {
+	color:black;
+
+}
+
+
+img {
+	/*This is the declaration block  */
+	width: 300px;
+
+}
+
+/* Profile
+------------------------------------------  */
+header {
+	background-color:salmon;
+}
+
+
+/* Work Experience
+------------------------------------------  */
+.work {
+	background-color:fuchsia;
+}
+
+/* Projects
+------------------------------------------  */
+.projects {
+	background-color:chocolate;
+}
+
+/* Education
+------------------------------------------  */
+.education {
+	background-color: darkseagreen;
+}
+
+/* Contact Info
+------------------------------------------  */
+footer {
+	background-color:gold;
+}
+
+/* */

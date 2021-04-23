@@ -1,0 +1,32 @@
+/* Universal selection */
+section {
+    font-family:tahoma;
+    color:aqua;
+    font-size: 200px;
+}
+/* Color declared from the universal selector overrides
+the declared from the section selector */
+
+* {
+    color:brown;
+}
+
+/* Type selector overrides the universal selector */
+p {
+    color:lawngreen;
+}
+
+/* Class selector will override both universal and type selector */
+.scour {
+    /* color:black; */
+}
+
+/* ID selector will override them all */
+#hunt {
+    /* color:mediumblue; */
+}
+
+section p {
+    color:green;
+}
+
