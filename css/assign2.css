@@ -1,0 +1,26 @@
+/* Make all p's that are nested inside div with 25 px font-size */
+
+div p{
+    font-size: 25px;
+}
+
+/* give all p's inside third div blue background and text colour is white */
+
+div:nth-of-type(3) p{
+    background-color:blue;
+}
+
+/* give 2nd p inside 3rd div a 5px red solid border */
+
+div:nth-of-type(3) p:nth-of-type(2) {
+    border:red solid 5px;
+}
+
+/* make em in the 2nd div  with white colour text and 30px font-size
+and green background*/
+
+div:nth-of-type(2) em {
+    color:white;
+    font-size: 30px;
+    background-color:green;
+}

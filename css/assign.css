@@ -1,0 +1,92 @@
+/* Set the body tag to #bdc646 */
+
+body {
+    background-color:#bdc646;
+}
+
+/* set all h1 tags to #9b79b8 */
+
+h1 {
+    color:#9b79b8;
+}
+
+/* Set all h2 tags to yellow */
+
+h2 {
+    color:yellow;
+}
+
+/* apply blue colour on li tags using hexa colour */
+
+
+li {
+    color:#0055FF;
+}
+
+/* Changing background for every paragraph with white colour */
+
+p {
+    background-color:white;
+}
+
+/* Make all inputs have a 5px border with red colour */
+
+input {
+    border: 5px red solid;
+}
+
+/* Set blue background with class attribute "hello" */
+
+.hello {
+    color:white;
+    background-color:blue;
+}
+
+/* Give 10px orange solid border for id attribute special */
+
+
+#special {
+    border:10px orange solid;
+}
+
+/* make only inputs with type text have a green background */
+
+input[type="text"] {
+    background-color:green;
+}
+
+/* make all checked check boxes of margin of 50px */
+
+input:checked {
+    margin-left: 50px ;
+}
+
+/* Make all the labels in the html into css case */
+
+label{
+    text-transform: uppercase;
+}
+
+/* make the first letter of the element with ID "special" with 100px and green colour */
+
+
+#special::first-letter {
+    color: green ;
+    font-size: 100px;
+    text-transform: capitalize;
+}
+
+/* Make h1 element colour change to white hovered  and give 10px red solid*/
+
+h1:hover {
+    color:white;
+    border: 10px red solid;
+}
+
+/* Visited links colours should be changed to yellow colour */
+
+a:visited {
+    color:yellow;
+}
+
+/* Applying the above to two classes */

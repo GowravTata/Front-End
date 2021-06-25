@@ -1,0 +1,45 @@
+body{
+    font-family: Arial Black;
+    /* font-size: 50px;; */
+    /* em is dynamic font */
+    /* font-size: 1.5em; */
+    font-weight:300;  
+}
+
+/* Font size */
+/* p {
+    font-size: 35px;
+} */
+
+/* p span {
+    font-size: 2.0rem;
+} */
+
+/* Font Weight :  */
+
+body {
+    font-weight: 300;
+}
+
+/* Line Height */
+
+p {
+    line-height:5;
+}
+
+/* Text alignment */
+
+p {
+    text-align: center;
+}
+
+
+/* Text Decoration */
+p span {
+    text-decoration:line-through;
+}
+
+p {
+    text-decoration:underline;
+}
+

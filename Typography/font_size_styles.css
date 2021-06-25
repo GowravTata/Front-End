@@ -1,0 +1,10 @@
+html {
+    /* font-size:2rem; */
+}
+.parent {
+    font-size: 120px;
+}
+.child {
+    /* rem is not affected by the parent or child element */
+    /* font-size:1rem; */
+}

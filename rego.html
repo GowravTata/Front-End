@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <a href="first.html">Home</a>
+    <form action="thankyou.html" method="GET">
+        <h1>Registration Form </h1>
+        <h2>All Fields are Mandatory</h2>
+        <br>
+        <label for="name">Name:</label>
+        <input type="text" id="name" value="" placeholder="John Smith" required>
+        <br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" pattern=".{5,10}" title="Password  should be of minimum 5 characters and maximum of 10 characters" required>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" value="" placeholder="yourname@company.com" required>
+        <br>
+        <label for="age">Age:</label>
+        <input type="number" id="age" value="" placeholder="26" required>
+        <br>
+        <h2>Are you Interested in Dating ?</h2>
+        <br> 
+        <label for="yes" >Yes</label>  
+        <input type="radio" name="interest" >
+        <label for="no" >No</label>  
+        <input type="radio" name="interest" >
+        <br>
+        <h2>Your Expectations like :</h2>
+            <select name="expect" id="">
+            <option value="kk">Katrina Kaif</option>
+            <option value="kkk">Kareena Kapoor</option>
+            <option value="dp">Deepika Padukone</option>
+            <option value="sk">Sonam Kapoor</option>
+            </select>
+        <br>
+        <h2>How many marriages you want ?</h2>
+            <select name="count" id="">
+                <option value="one">1</option>
+                <option value="two">2</option>
+            </select>
+        <br>
+        <h2>Are you Heavy Alcoholic ?</h2>
+            <input type="checkbox" name="quaff" value="yes">YES
+            <input type="checkbox" name="quaff" value="no">NO
+            <input type="checkbox" name="quaff" value="spo">Sporadic
+        <br>
+        <h2>Your preferences</h2>
+        <textarea name="Your area" id="" cols="100" rows="10"></textarea>
+        <br>
+        <input type="submit" value="Register">
+    </form>    
+</body>
+</html>

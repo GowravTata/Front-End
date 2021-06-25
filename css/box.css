@@ -1,0 +1,17 @@
+#top {
+    border: 10px red solid;
+    width: 25%;
+    text-align: center;
+    /* width:fit-content; */
+    padding-left: 30px;
+    padding-top: 30px;
+    padding: 50px;
+    /* Top Padding Right Padding Bottom Padding Left Padding */
+    /* padding: 100px 200px 300px 400px;  */
+    /* Top and Bottom Padding , Left and Right Padding */
+    /* padding: 30px 500px; */
+
+    /* Margin */
+    /* margin-top: 50px; */
+    margin: 100px;
+}

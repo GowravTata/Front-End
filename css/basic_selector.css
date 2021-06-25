@@ -1,0 +1,15 @@
+/* Element Selector */
+h1 {
+    color:blue;
+}
+
+/* ID selector */
+#first {
+    color:brown;
+}
+
+
+/* Class Selector */
+.firstpara {
+    color:deeppink;
+}

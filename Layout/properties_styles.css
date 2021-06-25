@@ -1,0 +1,14 @@
+p {
+    background:cornflowerblue;
+    padding:5px;
+}
+
+img {
+    /* It will enable the text to be at the left side of the container */
+    float:left;
+    margin: 5px;
+}
+
+.clear {
+    clear:both;
+}

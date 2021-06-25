@@ -1,0 +1,40 @@
+/* Selecting all the tags */
+* {
+    background-color:aqua;
+}
+
+/* Descendent Selectors */
+
+ 
+li a {
+    color:white;
+    background-color:greenyellow;
+} 
+
+/* Adjacent Selector */
+/* For every a tag present in ul */
+
+
+a+ul {
+    color:peru;
+}
+
+
+ul+a {
+    background-color:indigo;
+}
+
+/* Attribute selectors */
+
+
+a[href]{
+    color:orangered;
+    background-color:white;
+}
+
+/* nth of type selector */
+
+li:nth-of-type(odd) {
+    color:white;
+    background-color:midnightblue;
+}

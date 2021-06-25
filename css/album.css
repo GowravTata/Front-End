@@ -1,0 +1,17 @@
+img {
+    height:300px;
+    width:40%;
+    float:left;
+    margin: .05%;
+}
+
+p {
+    text-align:center;
+    font-size :25px;
+    font-weight: 400;
+    border-bottom: 2px solid gray;
+    padding-bottom: 20px;
+    font-family:'Trebuchet MS';
+
+}
+

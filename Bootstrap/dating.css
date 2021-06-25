@@ -1,0 +1,31 @@
+#center {
+    text-align: center;
+    padding-top: 25%;
+    color: #fff;
+    font-weight: 700;
+}
+
+body {
+    background:
+    url(https://images.unsplash.com/photo-1510926928520-87c5867a1157?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    color:white;
+
+}
+
+h1 {
+    color:white;
+}
+
+html {
+    height:100%;
+}
+
+hr {
+    width: 500px;
+}
+navbar a {
+    background-color:green;
+}

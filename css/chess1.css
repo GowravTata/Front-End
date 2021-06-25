@@ -1,0 +1,16 @@
+td{
+    height:50px;
+    width:50px;
+}
+#black {
+    background-color:black;
+}
+
+table{
+    margin: auto;
+    border:6px solid red;
+}
+
+td:hover{
+    background:red;
+}
